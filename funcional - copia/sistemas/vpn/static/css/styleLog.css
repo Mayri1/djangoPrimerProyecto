@@ -1,0 +1,35 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-image: url(../img/gq.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: 40%;
+    
+}
+.container{
+    display: flexbox;
+    text-align: center;
+}
+
+.login-form{
+    align-items: center;
+    text-align: center;
+    
+}
+.form-check{
+    
+    align-items: start !important;
+    text-align: left;
+    
+}
+.select-css{
+   
+    box-sizing: border-box;
+    border-color: rgb(77, 167, 252);
+    border-radius: 5px;
+    align-items: center;
+    
+}

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block titulo %} Editar Usuario {% endblock %}
+{% block contenido %} 
+
+<br>
+<div class="card">
+    <div class="card-header">
+        Editar Usuarios
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos: </h4>
+        {% include 'form.html'%}
+    </div>
+    <div class="card-footer text-muted">
+        Creacion de usuarios VPN
+    </div>
+</div>
+
+{% endblock %}
